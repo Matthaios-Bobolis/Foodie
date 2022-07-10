@@ -1,6 +1,6 @@
 /****************** ID selectors**********************/
 #title {
-  background-color: #ff9901a2;
+  background-color: #ee930a;
 }
 
 /************** Element selectors*********************/
@@ -12,13 +12,23 @@ h1 {
   font-style: italic;
 }
 
+nav {
+  margin-bottom: 50px;
+}
+
 /****************** Class selectors******************/
 .phone {
   border: none;
   background-color: #ff990100;
-  padding: 0;
+  padding: 0px;
 }
 
 .container-fluid {
   padding: 3% 6%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
 }
