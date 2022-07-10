@@ -13,3 +13,7 @@ h1 {
 }
 
 /****************** Class selectors******************/
+.phone {
+  padding: 0;
+  margin: 0;
+}
