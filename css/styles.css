@@ -1,0 +1,15 @@
+/****************** ID selectors**********************/
+#title {
+  background-color: #ff9901a2;
+}
+
+/************** Element selectors*********************/
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/****************** Class selectors******************/
