@@ -14,6 +14,11 @@ h1 {
 
 /****************** Class selectors******************/
 .phone {
+  border: none;
+  background-color: #ff990100;
   padding: 0;
-  margin: 0;
+}
+
+.container-fluid {
+  padding: 3% 6%;
 }
