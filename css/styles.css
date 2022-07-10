@@ -32,3 +32,15 @@ nav {
   font-size: 4rem;
   font-weight: 500;
 }
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.google-play-icon {
+  padding: 5px;
+}
+
+.apple-store {
+  padding: 5px;
+}
