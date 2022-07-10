@@ -1,6 +1,6 @@
 /****************** ID selectors**********************/
 #title {
-  background-color: #ff9900;
+  background-color: #f06c00;
 }
 
 /************** Element selectors*********************/
@@ -12,29 +12,37 @@ h1 {
   font-style: italic;
 }
 
-nav {
-  margin-bottom: 50px;
-}
-
 /****************** Class selectors******************/
 .phone {
   border: none;
   background-color: #ff990100;
   padding: 0px;
+  transform: rotate(20deg);
 }
 
 .container-fluid {
   padding: 3% 6%;
 }
 
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
-  font-size: 4rem;
-  font-weight: 500;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  color: white;
+  padding: 0 18px;
 }
 
 .nav-link {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
 }
 
 .google-play-icon {
@@ -43,4 +51,8 @@ nav {
 
 .apple-store {
   padding: 5px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
 }
