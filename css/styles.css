@@ -1,3 +1,4 @@
+/*----------title section--------*/
 /****************** ID selectors**********************/
 #title {
   background-color: #f06c00;
@@ -6,18 +7,19 @@
 /************** Element selectors*********************/
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
   font-style: italic;
 }
 
 /****************** Class selectors******************/
+
 .phone {
   border: none;
   background-color: #ff990100;
-  padding: 0px;
   transform: rotate(20deg);
+  padding-bottom: 30px;
 }
 
 .container-fluid {
@@ -34,15 +36,12 @@ h1 {
   font-weight: bold;
 }
 
-.nav-item {
-  color: white;
-  padding: 0 18px;
-}
-
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
+  color: white;
+  padding: 0;
 }
 
 .google-play-icon {
@@ -55,4 +54,48 @@ h1 {
 
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+/*------------------------features section-------------------------------*/
+
+/*----id selectors-----*/
+#features {
+  padding: 4% 8%;
+}
+
+/*----class selectors-----*/
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-p {
+  color: #8f8f8f;
+}
+
+.feature-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.circle-check {
+  width: 64px;
+  height: 64px;
+  filter: invert(9%) sepia(100%) saturate(7154%) hue-rotate(239deg)
+    brightness(101%) contrast(120%);
+}
+
+.map-location {
+  width: 64px;
+  height: 64px;
+  filter: invert(40%) sepia(48%) saturate(3124%) hue-rotate(115deg)
+    brightness(95%) contrast(101%);
+}
+
+.coins {
+  width: 64px;
+  height: 64px;
+  filter: invert(74%) sepia(53%) saturate(1673%) hue-rotate(3deg)
+    brightness(111%) contrast(101%);
 }
