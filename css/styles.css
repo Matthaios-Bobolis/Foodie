@@ -69,19 +69,20 @@ h1 {
   padding: 5%;
 }
 
-.feature-p {
-  color: #8f8f8f;
-}
-
 .feature-h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 1.5rem;
 }
 
+.feature-p {
+  color: #8f8f8f;
+}
+
 .circle-check {
   width: 64px;
   height: 64px;
+  margin-bottom: 1rem;
   filter: invert(9%) sepia(100%) saturate(7154%) hue-rotate(239deg)
     brightness(101%) contrast(120%);
 }
@@ -89,6 +90,7 @@ h1 {
 .map-location {
   width: 64px;
   height: 64px;
+  margin-bottom: 1rem;
   filter: invert(40%) sepia(48%) saturate(3124%) hue-rotate(115deg)
     brightness(95%) contrast(101%);
 }
@@ -96,6 +98,7 @@ h1 {
 .coins {
   width: 64px;
   height: 64px;
+  margin-bottom: 1rem;
   filter: invert(74%) sepia(53%) saturate(1673%) hue-rotate(3deg)
     brightness(111%) contrast(101%);
 }
