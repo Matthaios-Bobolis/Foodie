@@ -96,6 +96,8 @@ h1 {
 .coins {
   width: 64px;
   height: 64px;
-  filter: invert(74%) sepia(53%) saturate(1673%) hue-rotate(3deg)
+  /*filter: invert(74%) sepia(53%) saturate(1673%) hue-rotate(3deg)
     brightness(111%) contrast(101%);
+*/
+  color: #f06c00;
 }
