@@ -102,3 +102,18 @@ h1 {
   filter: invert(74%) sepia(53%) saturate(1673%) hue-rotate(3deg)
     brightness(111%) contrast(101%);
 }
+
+.circle-check:hover {
+  filter: invert(52%) sepia(26%) saturate(6568%) hue-rotate(2deg)
+    brightness(95%) contrast(101%);
+}
+
+.map-location:hover {
+  filter: invert(52%) sepia(26%) saturate(6568%) hue-rotate(2deg)
+    brightness(95%) contrast(101%);
+}
+
+.coins:hover {
+  filter: invert(52%) sepia(26%) saturate(6568%) hue-rotate(2deg)
+    brightness(95%) contrast(101%);
+}
