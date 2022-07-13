@@ -117,3 +117,48 @@ h1 {
   filter: invert(52%) sepia(26%) saturate(6568%) hue-rotate(2deg)
     brightness(95%) contrast(101%);
 }
+
+/************************Testimonial Section***********************************/
+
+/*-----------Id selectors--------------------*/
+
+#testimonials {
+  text-align: center;
+  background-color: #f06c00;
+  color: white;
+}
+
+/*------------class selectors-----------------*/
+
+.testimonials-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: auto;
+}
+
+.user-profile-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 4% 8%;
+}
+
+/*************************press section**************************/
+
+/*----------ID selectors--------------------*/
+
+#press {
+  background-color: #f06c00;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 40px;
+}
