@@ -18,13 +18,14 @@ h1 {
 .phone {
   border: none;
   background-color: #ff990100;
-  transform: rotate(20deg);
+  transform: rotate(34deg);
   position: absolute;
-  top: 20%;
+  right: 20%;
+  bottom: 10%;
 }
 
 .container-fluid {
-  padding: 3% 6%;
+  padding: 3% 15% 7%;
 }
 
 .navbar {
