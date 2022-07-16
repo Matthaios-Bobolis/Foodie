@@ -19,7 +19,8 @@ h1 {
   border: none;
   background-color: #ff990100;
   transform: rotate(20deg);
-  padding-bottom: 30px;
+  position: absolute;
+  top: 20%;
 }
 
 .container-fluid {
@@ -61,6 +62,8 @@ h1 {
 /*----id selectors-----*/
 #features {
   padding: 4% 8%;
+  background-color: white;
+  position: relative;
 }
 
 /*----class selectors-----*/
