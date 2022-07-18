@@ -194,9 +194,11 @@ h1 {
   padding: 3% 2%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
   .phone {
     position: static;
+
+    transform: rotate(0);
   }
 
   .nav-link {
