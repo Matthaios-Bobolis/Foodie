@@ -199,6 +199,10 @@ h1 {
     position: static;
   }
 
+  .nav-link {
+    font-size: 2rem;
+  }
+
   h1 {
     text-align: center;
   }
