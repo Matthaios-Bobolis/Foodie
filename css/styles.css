@@ -194,7 +194,7 @@ h1 {
   padding: 3% 2%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1028px) {
   .phone {
     position: static;
     transform: rotate(0);
