@@ -20,6 +20,7 @@ h1 {
   background-color: #ff990100;
   transform: rotate(34deg);
   position: absolute;
+  bottom: 0%;
 }
 
 .container-fluid {
@@ -191,4 +192,14 @@ h1 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1024px) {
+  .phone {
+    position: static;
+  }
+
+  h1 {
+    text-align: center;
+  }
 }
