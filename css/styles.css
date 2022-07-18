@@ -197,7 +197,6 @@ h1 {
 @media (max-width: 900px) {
   .phone {
     position: static;
-
     transform: rotate(0);
   }
 
