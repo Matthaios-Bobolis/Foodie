@@ -1,6 +1,6 @@
 @media (max-width: 1080px) {
   .phone {
-    position: static;
+    position: relative;
     transform: rotate(0);
   }
 
