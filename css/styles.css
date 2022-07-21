@@ -1,11 +1,6 @@
-@media (max-width: 1080px) {
+@media (max-width: 966px) {
   .phone {
-    position: static;
-    transform: rotate(0);
-  }
-
-  .nav-link {
-    font-size: 8rem;
+    transform: rotate(25deg);
   }
 
   h1 {
@@ -35,10 +30,11 @@ h1 {
 /****************** Class selectors******************/
 
 .phone {
-  border: none;
   background-color: #ff990100;
-  transform: rotate(34deg);
-  position: absolute;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .container-fluid {
