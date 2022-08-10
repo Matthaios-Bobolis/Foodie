@@ -1,6 +1,8 @@
 @media (max-width: 966px) {
   .phone {
     transform: rotate(25deg);
+    position: relative;
+    top: 0px;
   }
 
   h1 {
@@ -18,12 +20,17 @@
   padding: 4% 8%;
 }
 
-/*----------title section--------*/
-/****************** ID selectors**********************/
-#title {
+/*---------sections-----------------*/
+
+.colored-section {
   background-color: #f06c00;
 }
 
+.white-section {
+  background-color: white;
+}
+
+/*----------title section--------*/
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -38,8 +45,9 @@
 }
 
 .phone {
-  background-color: #ff990100;
-  position: relative;
+  /*background-color: #ff990100;*/
+  position: sticky;
+  top: 190px;
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -76,7 +84,6 @@
 
 /*----id selectors-----*/
 #features {
-  background-color: white;
   position: relative;
 }
 
@@ -133,7 +140,6 @@
 
 #testimonials {
   text-align: center;
-  background-color: #f06c00;
   color: white;
 }
 
@@ -158,7 +164,6 @@
 /*----------ID selector--------------------*/
 
 #press {
-  background-color: #f06c00;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -198,7 +203,6 @@
 /*********************cta section**************************/
 /*------------id selectors--------------------*/
 #cta {
-  background-color: #f06c00;
   text-align: center;
 }
 
@@ -219,7 +223,6 @@
 /*********************footer section**************************/
 /*------------id selectors--------------------*/
 #footer {
-  background-color: white;
   text-align: center;
   color: #8f8f8f;
   font-family: "Montserrat", sans-serif;
