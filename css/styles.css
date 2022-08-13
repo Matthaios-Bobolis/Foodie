@@ -1,4 +1,4 @@
-@media (max-width: 966px) {
+@media screen and (min-width: 400px) and (max-width: 1000px) {
   .phone {
     transform: rotate(25deg);
     position: relative;
@@ -10,6 +10,10 @@
 
   .row {
     text-align: center;
+  }
+
+  .nav-link {
+    padding-bottom: 3rem;
   }
 }
 
