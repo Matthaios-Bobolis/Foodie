@@ -30,8 +30,10 @@
 
 .phone {
   /*background-color: #ff990100;*/
-  position: sticky;
-  top: 190px;
+  position: absolute;
+  bottom: 30px;
+  right: 300px;
+  transform: rotate(35deg);
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -232,8 +234,8 @@ footer img {
 
 @media screen and (min-width: 400px) and (max-width: 1000px) {
   .phone {
-    transform: rotate(25deg);
-    position: relative;
+    transform: rotate(0);
+    position: static;
   }
 
   h1 {
