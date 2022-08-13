@@ -235,7 +235,9 @@ footer img {
 @media screen and (min-width: 400px) and (max-width: 1000px) {
   .phone {
     transform: rotate(0);
-    position: static;
+    position: relative;
+    left: 66px;
+    top: 31px;
   }
 
   h1 {
