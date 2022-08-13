@@ -243,4 +243,8 @@ footer img {
   .row {
     text-align: center;
   }
+
+  .nav-link {
+    font-size: 2rem;
+  }
 }
