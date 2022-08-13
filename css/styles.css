@@ -2,7 +2,6 @@
   .phone {
     transform: rotate(25deg);
     position: relative;
-    top: 0px;
   }
 
   h1 {
@@ -64,7 +63,7 @@
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 4rem;
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   color: white;
